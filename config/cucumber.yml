@@ -1,0 +1,6 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+ios: DEVICE_TARGET='C4CA5FE7-097B-40AE-BE79-BA2341E81C95' PLATFORM=ios APP_BUNDLE_PATH=prebuilt/WordPress-cal.app  -r features/support -r features/ios -r features/steps
+android: ADB_DEVICE_ARG='emulator-5554' PLATFORM=android APP_PATH='prebuilt/Android-debug.apk' -r features/support -r features/android -r features/steps

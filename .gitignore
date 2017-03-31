@@ -1,0 +1,21 @@
+# Calabash
+
+# Do not save screenshots takes from errors.
+features/screenshots/*
+
+# Hystory of calabash console.
+*.irb-history
+
+# Output folder with elements scanned from the test server.
+output
+
+# Mac preferences for folders.
+.DS_Store
+
+# Signed APK.
+*.apk
+*.app
+*.ipa
+
+# Exceptions.
+!.gitkeep
